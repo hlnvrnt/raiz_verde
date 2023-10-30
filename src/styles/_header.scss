@@ -1,0 +1,44 @@
+.header {
+    width : 100%;
+    display: flex;
+    padding : 20px 50px;
+    align-items: center;
+    gap:60px;
+    background-color: #7EAA92;
+    border-bottom: 2px solid #ccb09c;
+    margin-bottom: 50px;
+    
+
+    .panier{
+        width : 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    a {
+        color :white;
+        text-decoration:none;
+        font-size: 30px;
+        transition: 200ms;
+        width : 15%;
+    }
+
+    .active{
+        color:#ccb09c;
+    }
+
+    a:hover{
+        color:#ccb09c;
+    }
+
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.logo img{
+    width:10%;
+    height:10%;
+    margin : 0 auto;
+}

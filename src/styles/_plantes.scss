@@ -1,0 +1,45 @@
+.cardplants{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 5px 5px 5px rgb(229, 228, 228);
+    font-size: 20px;
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #7EAA92 ;
+    font-weight: bold;
+    gap : 15px;
+
+
+    img{
+        height:25vh;
+        width:10vw;
+    }
+
+    .buttons{
+        display:flex;
+        gap:10px;
+        align-items: center;
+        
+    }
+
+    button{
+        height: 3vh;
+        width:2vw;
+        background-color: #fcf7f1;
+        border-color:#fcf7f1 ;
+        border-radius: 10px;
+        color: #7EAA92 ;
+        font-weight: bolder;
+        align-items: center;
+    }
+}
+
+.allcards{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
