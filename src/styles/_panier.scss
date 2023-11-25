@@ -1,0 +1,146 @@
+.cartContainer{
+    margin-bottom:50px;
+    display:flex;
+    flex-direction: column;
+
+    gap:80px;
+}
+
+.panier{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+        h1{
+        font-size: 30px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        color: #435649 ;
+        display:flex;
+        justify-content: center; 
+        margin-bottom:50px;
+    }
+}
+.cart{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        height:10vh;
+
+        .img-text{
+            display: flex;
+            width:60vw;
+            justify-content: space-around;
+            max-height:30vh;
+            align-items: center;
+
+            .buttons-qty{
+                display: flex;
+                justify-content: space-around;
+        
+            }
+
+            .button-cart {
+                button{
+                height:5vh;
+                width:1vw;
+                border: none;
+                font-size: 15px;
+                background-color: white;
+                
+                cursor:pointer;
+            
+                &:hover{
+                    filter:brightness(1.1);
+                    }
+                }
+                
+                }
+
+        }
+        .ligne{
+            border-bottom: 2px solid #516056;
+            width:60%;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }     
+
+}
+
+.text{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+
+    .modify-qty{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:70%;
+        height:40%;
+        background-color: white;
+        border-radius: 10px;
+        border-style: solid;
+
+        button{
+            border:none;
+            background-color: white;
+            color: #435649;
+            font-size: 15px;
+        }
+
+        p{
+            color:#435649;
+            font-size: 15px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+ }
+}
+
+img{
+        height:50%;
+        border-radius: 10px;
+}
+
+
+.price{
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+    .totalPrice{
+        background-color: white;
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #435649;
+        border-radius: 10px;
+        border-color:#435649 ;
+        border-style: solid;
+        width: 50%;
+        height:8vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+}
+
+// button{
+    //     width: 9vw;
+    //     height:3vh;
+    //     border-radius: 10px;
+    //     border-style: none;
+    //     font-size: 15px;
+    //     background-color: #7EAA92;
+    //     color:white;
+    //     cursor:pointer;
+    
+    //     &:hover{
+    //         filter:brightness(1.1);
+    //         }
+    //     }

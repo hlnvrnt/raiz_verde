@@ -6,9 +6,6 @@ const Home = () => {
     <div className ="container">
         <div>
          <img className ="image" src="https://images.pexels.com/photos/3094211/pexels-photo-3094211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
-        {/* <div class="middle"> */}
-            {/* <div class ="text">Voir nos plantes</div> */}
-        {/* </div> */}
         </div>
    
         <div className ="paragraph">
@@ -31,11 +28,11 @@ const Home = () => {
         <h2>Retrouver Raiz Verde sur les réseaux</h2>
         <div className="follow">
             <div>
-                <img src="/src/images/instagram.png"/>
+                <img src="/images/instagram.png"/>
                 <button>Raiz_Verde</button>
             </div>
             <div>
-                <img src="/src/images/tik-tok.png"/>
+                <img src="/images/tik-tok.png"/>
                 <button>Raiz_Verde</button>
             </div>
             

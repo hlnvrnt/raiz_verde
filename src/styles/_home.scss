@@ -1,25 +1,24 @@
 
-div .container {
+.container {
     width:100vw;
     height: 50vh;
     display:flex;
+    justify-content: space-around;
     margin-bottom: 20px;
+    background-color:#EDE9E0;
 
-}
+    .image {
+        height: 80%;
+        margin-block: 50px;
+        border-radius: 10px 10px 10px 10px;
+    }
 
-.image {
-    height: 60vh;
-    width: 50vw;
-    object-fit: contain;
-   margin-bottom: 50px;
 }
 
 .paragraph {
-    width : 50%;
-    font-size : 20px;
-    background-color:#ccb09c;
-    color: white;
-    border-style:solid;
+    width : 40%;
+    font-size : 15px;
+    color: #435649;
     border-radius: 10px 10px 10px 10px;
     text-align:initial;
     padding : 20px;
@@ -41,7 +40,7 @@ div .container {
         display:flex;
         justify-content: center;
         margin-top: 50px;
-        font-size:30px;
+        font-size:20px;
         margin-bottom: 50px;
     }
 
@@ -67,7 +66,7 @@ div .container {
         background-color: #016A70;
         color:white;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size:20px;
+        font-size:15px;
         border-radius: 10px 10px 10px 10px;
         padding: 8px;
         width: 10vw;

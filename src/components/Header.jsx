@@ -4,13 +4,13 @@ import { NavLink } from 'react-router-dom';
 
 
 const Header = () => {
-    function determineActive({isActive}){
-        if (isActive===true){
-            return "active" 
-        } else {
-            return ""
-        }
-    }
+    // function determineActive({isActive}){
+    //     if (isActive===true){
+    //         return "active" 
+    //     } else {
+    //         return ""
+    //     }
+    // }
 
 
     return (
@@ -19,11 +19,14 @@ const Header = () => {
             <img src="https://static.vecteezy.com/system/resources/previews/000/389/709/original/vector-plant-logo-design.jpg"/>
         </div>
         <div className = {"header"}>
-        
-            <NavLink to="/"  className={determineActive}>Home</NavLink>
-            <NavLink to ="/plantes" className={determineActive}>Les plantes</NavLink>
-            <NavLink to="/ollas" className={determineActive}>Les Ollas</NavLink>
-            <div className ="panier"><NavLink to="/panier" className={determineActive}>🧺</NavLink></div>
+            <div className="onglets">
+            <NavLink to="/"  >Home</NavLink>
+            <NavLink to ="/plantes" >Nos Plantes</NavLink>
+            <NavLink to="/ollas" >Nos Ollas</NavLink>
+            </div>
+            <div className ="panier-page">
+                <NavLink to="/panier" >Mon Panier</NavLink>
+            </div>
             
         </div>
 </div>

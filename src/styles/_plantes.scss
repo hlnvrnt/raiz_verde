@@ -1,45 +1,149 @@
+.boutures-presentation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom : 40px;
+    padding-inline: 100px;
+
+    img {
+        max-width: 35%;
+        border-radius: 10px;
+    }
+
+    p{
+        font-size: 17px;
+        font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    h1{
+        font-size: 30px;
+        font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+
+    .text-boutures{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-right: 50px;
+        color: #435649 ;
+    }
+}
+
+.container-icone{
+display: flex;
+flex-direction: column;
+
+.ligne{
+    border-bottom: 2px solid #516056;
+    width:60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+}
+
+.icones{
+    display : flex; 
+    justify-content: space-around;
+    padding-inline: 200px;
+    margin-bottom: 80px;
+    text-align: center;
+    
+
+    img{
+        max-width:10%;
+        max-height:70%;
+    }
+
+    p{
+        font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        color: #435649 ;
+        font-size: 12px;
+    
+    }
+}
+
+
+
 .cardplants{
     display:flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    background-color: white;
+    // background-color: #f5f1ea;
     width: 20vw;
-    height: 40vh;
-    box-shadow: 5px 5px 5px rgb(229, 228, 228);
-    font-size: 20px;
+    height: 45vh;
+    // box-shadow: 3px 3px 3px rgb(229, 228, 228);
+    font-size: 15px;
     font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #7EAA92 ;
+    color: #4a6854 ;
     font-weight: bold;
     gap : 15px;
+    margin-bottom: 50px;
+    transition:all 0.5s;
+
+    &:hover{
+        scale:105%;
+    }
 
 
     img{
-        height:25vh;
+        height:22vh;
         width:10vw;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+
+    .quantite {
+        font-size: 15px;
     }
 
     .buttons{
         display:flex;
         gap:10px;
         align-items: center;
+        justify-content: space-around;
+        width: 100%;
+       
         
     }
 
     button{
-        height: 3vh;
-        width:2vw;
-        background-color: #fcf7f1;
-        border-color:#fcf7f1 ;
+        height: 4vh;
+        width:5.5vw;
+        background-color: #7EAA92;
+        border:none;
         border-radius: 10px;
-        color: #7EAA92 ;
-        font-weight: bolder;
+        color: white;
+        font-weight:700;
         align-items: center;
+        font-size: 10px;
+        cursor:pointer;
+
+        &:hover{
+            filter:brightness(1.1);
+        }
+    }
+
+    .handledecrease{
+        height: 2vh;
+        width: 1.5vw;
+    }
+
+    .panierDecrease{
+        display: flex;
+        // flex-direction: column;
+        gap : 5px;
     }
 }
 
 .allcards{
     display:flex;
     justify-content: space-around;
+    gap: 50px;
     flex-wrap: wrap;
+    text-decoration: none;
+
 }

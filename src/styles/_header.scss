@@ -1,34 +1,45 @@
 .header {
     width : 100%;
-    display: flex;
     padding : 20px 50px;
-    align-items: center;
-    gap:60px;
     background-color: #7EAA92;
-    border-bottom: 2px solid #ccb09c;
+    border-bottom: 2px solid white;
     margin-bottom: 50px;
+    display:flex;
+
+    .onglets{
+        display: flex;
+        align-items: center;
+        gap:20px;
+        width:100%;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    
     
 
-    .panier{
+    .panier-page{
         width : 100%;
-        display: flex;
-        justify-content: end;
+        display:flex;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
     }
 
     a {
         color :white;
+        font-weight:500;
         text-decoration:none;
-        font-size: 30px;
+        font-size: 20px;
         transition: 200ms;
         width : 15%;
     }
 
     .active{
-        color:#ccb09c;
+        color: #435649;
     }
 
     a:hover{
-        color:#ccb09c;
+        
+        color: #435649;
     }
 
 }

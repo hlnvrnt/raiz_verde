@@ -6,8 +6,9 @@
 
 html, body, :root {
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 body{
-    background-color: #fcf7f1;
+    background-color: white;
 }
