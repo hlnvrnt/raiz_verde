@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 * {
     box-sizing : border-box;
+    font-family: 'Playfair Display' ;
     margin :0;
     padding:0;
 }
@@ -11,4 +14,12 @@ html, body, :root {
 
 body{
     background-color: white;
+}
+
+
+:root {
+	--color-text: #435649;
+	--color-onglet-button: white;
+	--primary-background-color: #6C7D5B;
+	--secondary-background-color: #F5F0DC;
 }

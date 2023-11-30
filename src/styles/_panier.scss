@@ -1,3 +1,14 @@
+.panier-container {
+
+h1{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color: #435649 ;
+    display:flex;
+    justify-content: center; 
+    margin-bottom:50px;
+}
+
 .cartContainer{
     margin-bottom:50px;
     display:flex;
@@ -8,16 +19,9 @@
 
 .panier{
     display: flex;
-    flex-direction: column;
     height:100vh;
-        h1{
-        font-size: 30px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-        color: #435649 ;
-        display:flex;
-        justify-content: center; 
-        margin-bottom:50px;
-    }
+    justify-content: space-between;
+    
 }
 .cart{
         display: flex;
@@ -28,7 +32,7 @@
 
         .img-text{
             display: flex;
-            width:60vw;
+            width:55vw;
             justify-content: space-around;
             max-height:30vh;
             align-items: center;
@@ -56,13 +60,7 @@
                 
                 }
 
-        }
-        .ligne{
-            border-bottom: 2px solid #516056;
-            width:60%;
-            margin: 0 auto;
-            margin-bottom: 20px;
-        }     
+        }   
 
 }
 
@@ -77,11 +75,12 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width:70%;
+        width:20vh;
         height:40%;
         background-color: white;
         border-radius: 10px;
         border-style: solid;
+        border-color:#43564992 ;
 
         button{
             border:none;
@@ -108,18 +107,44 @@ img{
 .price{
     gap:20px;
     display: flex;
+    flex-direction:column;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    width:30%;
+    border-radius: 10px;
+    border-color:#4356496f ;
+    border-style: solid;
+    height:50vh;
+    margin-right:30px;  
+    
+    button{
+        width: 9vw;
+        height:3vh;
+        border-radius: 10px;
+        border-style: none;
+        font-size: 15px;
+        background-color: #7EAA92;
+        color:white;
+        cursor:pointer;
+    
+        &:hover{
+            filter:brightness(1.1);
+            }
+        }
 
+    .text{
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+    }
 
     .totalPrice{
         background-color: white;
         font-size: 20px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: #435649;
-        border-radius: 10px;
-        border-color:#435649 ;
-        border-style: solid;
         width: 50%;
         height:8vh;
         text-align: center;
@@ -127,20 +152,8 @@ img{
         align-items: center;
         justify-content: center;
         margin-top: 100px;
+
     }
 }
 
-// button{
-    //     width: 9vw;
-    //     height:3vh;
-    //     border-radius: 10px;
-    //     border-style: none;
-    //     font-size: 15px;
-    //     background-color: #7EAA92;
-    //     color:white;
-    //     cursor:pointer;
-    
-    //     &:hover{
-    //         filter:brightness(1.1);
-    //         }
-    //     }
+}

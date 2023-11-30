@@ -5,8 +5,9 @@ const Panier = () => {
  const { cartDetails, totalPrice, incrementItem, decrementItem, removeItem } = useShoppingCart() 
  const cartItems= Object.values(cartDetails) || [];   
     return (
-      <div className="panier">
+      <div className="panier-container">
         <h1>Mon Panier</h1>
+      <div className="panier">
         <div className="cartContainer">
           {cartItems.map((item) => {
             const{id, name, price, img, currency, quantity}= item;
@@ -16,7 +17,6 @@ const Panier = () => {
                   <img src={img} alt={name}/>
                   <div className="text">
                   {name} - {price}€ 
-                    {console.log(name)}
                   <div className="buttons-qty">
                   <div className="modify-qty">
                   <button onClick={()=>incrementItem(id)}>+</button>
@@ -31,16 +31,22 @@ const Panier = () => {
                   </div> 
                   </div>
                   </div>
-                <div className="line">
-                </div>
               </div>
             );
           })}
         </div>
         <div className="price">
+        {cartItems.map((item) => {
+            const{id, name, price, quantity}= item;
+            <div className="text" key={id}>
+                  {name} - {price}€ - {quantity}
+            </div>
+          })}
           <div className="totalPrice">Total du panier : {totalPrice}€</div>
-          {/* <button onClick={clearCart}>Vider le panier</button> */}
+          <button>Acheter</button>
+          
         </div>
+      </div>
       </div>
     );
 };

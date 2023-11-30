@@ -9,7 +9,7 @@ import Ollas from "./pages/Ollas.jsx";
 import Panier from "./pages/Panier.jsx";
 import PlantCard from "./pages/PlantCard.jsx";
 import ProductsDetails from './pages/ProductsDetails.jsx';
-import { CartProvider } from 'use-shopping-cart'
+import Entretien from './pages/Entretien.jsx';
 
 const router = createBrowserRouter(
   [
@@ -43,6 +43,10 @@ const router = createBrowserRouter(
         {
           path: "panier",
           element: <Panier />
+        },
+        {
+          path: "entretien",
+          element: <Entretien />
         },
       ]
     }

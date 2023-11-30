@@ -4,19 +4,11 @@ import { NavLink } from 'react-router-dom';
 
 
 const Header = () => {
-    // function determineActive({isActive}){
-    //     if (isActive===true){
-    //         return "active" 
-    //     } else {
-    //         return ""
-    //     }
-    // }
-
 
     return (
 <div>
 <div className="logo">
-            <img src="https://static.vecteezy.com/system/resources/previews/000/389/709/original/vector-plant-logo-design.jpg"/>
+            <img src="/images/logo.jpg" alt="logo"/>
         </div>
         <div className = {"header"}>
             <div className="onglets">

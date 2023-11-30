@@ -2,6 +2,7 @@ import React from 'react';
 import {Outlet} from "react-router-dom";
 import Header from "./components/Header.jsx";
 import { CartProvider } from 'use-shopping-cart';
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Outlet />            
       {/* outlet indique le contenu de la page sur laquelle on est */}
       </CartProvider>
+      <Footer />
     </div>
 
   );

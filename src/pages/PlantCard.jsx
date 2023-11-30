@@ -3,11 +3,6 @@ import { NavLink } from 'react-router-dom';
 import { useShoppingCart } from 'use-shopping-cart';
 
 const PlantCard = ({ plant }) => {
-    // const [count, setCount] = useState(0);
-
-    // const handleIncrease = () => {
-    //   setCount(count + 1);
-    // };
   
     const {addItem}=useShoppingCart();
 

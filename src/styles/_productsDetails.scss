@@ -21,17 +21,16 @@
         gap: 10px;
         margin-top: 20px;
         margin-right: 50px;
-        color: #435649 ;
+        color: var(--color-text) ;
         max-width: 50%;
 
         h1{
             margin-bottom: 20px;
-            font-size: 20px;
+            font-size: 30px;
         }
 
         p{
-            font-size: 15px;
-            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
             margin-bottom: 40px;
         }
 
@@ -46,8 +45,9 @@
             border-radius:50%;
             border-style: none;
             font-size: 18px;
-            background-color: #7EAA92;
-            color:white;
+            background-color: var(--primary-background-color);
+            color:var(--color-onglet-button);
+            font-weight: 600;
             cursor:pointer;
 
             &:hover{
@@ -57,22 +57,19 @@
             
             p{
                 font-size: 20px;
-                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             }
 
         }
 
         .button-panier {
             button {
-            background-color: #7EAA92;
+            background-color: var(--primary-background-color);
+            color:var(--color-onglet-button);
             border-style: none;
-            color:white;
-            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-size:15px;
-            border-radius: 10px 10px 10px 10px;
+            border-radius: 10px;
             padding: 8px;
             width: 10vw;
-            border-color: #016A70;
             margin-bottom: 20px;
             }
             
@@ -86,15 +83,13 @@
     text-align: center;
 
     h2{
-        font-size: 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: #435649 ;
+        font-size: 25px;
+        color: var(--color-text);
         margin-bottom:15px;
     }
     p{
-        font-size: 15px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: #435649 ;
+        font-size: 18px;
+        color: var(--color-text);
         
     }
 

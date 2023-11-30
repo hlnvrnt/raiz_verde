@@ -1,7 +1,7 @@
 .boutures-presentation {
     display: flex;
     justify-content: space-between;
-    margin-bottom : 40px;
+    margin-bottom : 60px;
     padding-inline: 100px;
 
     img {
@@ -10,24 +10,22 @@
     }
 
     p{
-        font-size: 17px;
-        font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
     }
 
     h1{
-        font-size: 30px;
-        font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: bold;
+        font-size: 40px;
+        font-weight: 600;
     }
 
     .text-boutures{
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 20px;
         flex-wrap: wrap;
         margin-top: 20px;
         margin-right: 50px;
-        color: #435649 ;
+        color: var(--color-text) ;
     }
 }
 
@@ -36,10 +34,10 @@ display: flex;
 flex-direction: column;
 
 .ligne{
-    border-bottom: 2px solid #516056;
+    border-bottom: 1px solid var(--color-text);
     width:60%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 }
 
@@ -47,20 +45,19 @@ flex-direction: column;
     display : flex; 
     justify-content: space-around;
     padding-inline: 200px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     text-align: center;
     
 
     img{
-        max-width:10%;
+        max-width:13%;
         max-height:70%;
     }
 
     p{
-        font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: bold;
-        color: #435649 ;
-        font-size: 12px;
+        color: var(--color-text) ;
+        font-size: 15px;
     
     }
 }
@@ -72,14 +69,11 @@ flex-direction: column;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    // background-color: #f5f1ea;
     width: 20vw;
     height: 45vh;
-    // box-shadow: 3px 3px 3px rgb(229, 228, 228);
-    font-size: 15px;
-    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #4a6854 ;
-    font-weight: bold;
+    font-size: 20px;
+    color: var(--color-text) ;
+    font-weight: 500;
     gap : 15px;
     margin-bottom: 50px;
     transition:all 0.5s;
@@ -104,7 +98,7 @@ flex-direction: column;
         display:flex;
         gap:10px;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         width: 100%;
        
         
@@ -112,14 +106,14 @@ flex-direction: column;
 
     button{
         height: 4vh;
-        width:5.5vw;
-        background-color: #7EAA92;
+        width:6vw;
+        background-color: var(--primary-background-color);
         border:none;
         border-radius: 10px;
-        color: white;
-        font-weight:700;
+        color: var(--color-onglet-button);
+        font-weight:400;
         align-items: center;
-        font-size: 10px;
+        font-size: 15px;
         cursor:pointer;
 
         &:hover{
@@ -127,16 +121,15 @@ flex-direction: column;
         }
     }
 
-    .handledecrease{
-        height: 2vh;
-        width: 1.5vw;
-    }
+    // .handledecrease{
+    //     height: 2vh;
+    //     width: 1.5vw;
+    // }
 
-    .panierDecrease{
-        display: flex;
-        // flex-direction: column;
-        gap : 5px;
-    }
+    // .panierDecrease{
+    //     display: flex;
+    //     gap : 5px;
+    // }
 }
 
 .allcards{
